@@ -81,7 +81,10 @@ nav ul li:hover .dropdown-content {
     flex-shrink: 0;
 
 }
-
+{
+text-align: center;
+font-size: 30px;
+}
 
 @keyframes slideAnimation {
     0% { transform: translateX(0); }
@@ -170,7 +173,48 @@ color: #666;
     height: 180px;
     width: 180px;
 }
-.rodape{
-    background-color: rgb(237, 156, 194);
-    color: white;
+.card{
+    background-color: white;
+    border: 1px solid rgb(247, 165, 232) ;
+    border-radius: 8px;
+    padding: 20px;
+   margin: 20px;
+    height: 340px;
+    box-shadow: 0 2px 5px rgba(148, 137, 137, 0.313);
+    flex: 1;
+    max-width: 300px;
+    align-items: center;
 }
+header a{
+    text-decoration: none;
+    color: #fa9ae8;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Container da galeria usando Grid */
+.grid-gallery-container {
+    display: grid; /* Ativa o CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define o
+    grid com colunas flexíveis */
+    gap: 30px; /* Espaçamento entre os itens */
+    padding: 20px;
+    }
+    /* Cada item da galeria */
+    .grid-gallery-item {
+    border: 2px solid #fca1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    }
+    /* Estilos para as imagens */
+    .grid-gallery-item img {
+    width: 100%; /* Garante que a imagem preencha todo o espaço disponível
+    height: auto; /* Mantém a proporção da imagem */
+    }
+    @media (max-width: 600px){
+
+    }
+
+    footer{
+        background-color: #fa9ae8;
+    }
