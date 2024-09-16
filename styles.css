@@ -218,3 +218,56 @@ header a{
     footer{
         background-color: #fa9ae8;
     }
+    /* Galeria --------------------------------------------------------------------------------------------- */
+
+body galeria-font{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-gallery-item {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    width: 80%;
+    margin: auto; 
+}
+
+
+.grid-gallery-item:hover .grid-gallery-item {
+    opacity: 0.5;
+}
+
+.grid-gallery-item:hover {
+    opacity: 1; 
+    transform: translateY(-20px); 
+}
+
+
+.grid-gallery-item {
+    margin: 10px;
+    border: 2px solid #de90cf; 
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px; 
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+
+.grid-gallery-img 
+{
+    width: 100%; 
+    height: auto; 
+}
+
+
+@media (max-width: 600px) {
+    .galeria-item {
+        width: 100%; 
+    }
+}
