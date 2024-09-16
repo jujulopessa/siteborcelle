@@ -1,11 +1,11 @@
 /* Estilo do menu de navegação */
 nav {
-    background-color: #636063;
+    background-color: #ec78c1;
     padding: 10px 0;
 }
 header a{
 text-decoration: none;
-color: #070605;
+color: #e474dd;
 text-align: center;
 font-size: 30px;
 }
@@ -62,4 +62,68 @@ nav ul li .dropdown-content li a:hover {
 /* Exibe o submenu ao passar o mouse sobre o item principal */
 nav ul li:hover .dropdown-content {
     display: block;
+}
+.btn-login{
+    background-color: rgb(220, 109, 198);
+ }
+.container-login{
+    background-color: white;
+    border: 1px solid rgb(247, 165, 232) ;
+    border-radius: 8px;
+    padding: 20px;
+   margin: 50px;
+    height: 340px;
+    box-shadow: 0 2px 5px rgba(148, 137, 137, 0.313);
+    flex: 1;
+    max-width: 300px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.container-login img{
+    border-radius: 48px;
+}
+
+.container-login button{
+    background-color: rgb(215, 106, 191);
+    border: 0px;
+}
+footer{
+    background-color: #fa9ae8;
+}
+nav {
+    background-color: #7a787a;
+    padding: 10px 0;
+}
+header a{
+text-decoration: none;
+color: #070605;
+text-align: center;
+font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative; /* Necessário para o posicionamento do dropdown */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(215, 104, 169);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block; /* Torna o link clicável em toda a área */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #070605;
 }
